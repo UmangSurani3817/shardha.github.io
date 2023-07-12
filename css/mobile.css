@@ -1,0 +1,380 @@
+@media screen and (max-width:480px){
+    body
+    {
+        margin: 0% !important;
+        padding: 0% !important;
+        overflow-x: hidden !important;
+    }
+
+   /* start header */
+    .contactnum
+{
+    width: 12% !important;
+    height: auto !important;
+    margin-left: 5% !important;
+    margin-top: 5px !important;
+}
+
+.contactnum span
+{
+    color: blue !important;
+    font-weight: 900 !important;
+    font-size: 10px !important;   
+}
+
+.searchbox
+{
+    width: 10% !important;
+    height: auto !important;
+    margin: auto !important;
+}
+
+.searchbox input
+{
+    width: 130px !important;
+    padding: 2px !important;
+    height: 10px !important;
+}
+
+.social
+{
+    width: 20% !important;
+    height: auto !important;
+    margin-left: 20% !important;
+}
+
+.social span
+{
+    color: blue !important;
+    padding: 2px 1px !important;
+    font-size: 15px !important;
+}
+
+.cart
+{
+    width: 15% !important;
+    height: auto !important;
+    margin: auto !important;
+}
+
+.cart button
+{
+    width: 80px !important;
+    height: 30px !important;
+    border: none !important;
+    background-color: white !important;
+    color: blue !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+.cart span
+{
+    color: gray !important;
+    font-size: 18px !important;
+}
+
+.btnlogin
+{
+    width: 14% !important;
+    height: auto !important;
+    margin: auto !important;
+}
+
+.btnlogin button
+{
+    width: 30px !important;
+    height: 20px !important;
+    border: none !important;
+    background-color: white !important;
+    color: blue !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+}
+
+/* start navbar */
+
+#navbar
+{
+    width: 100% !important;
+    height: auto !important;
+    margin: 0% !important;
+    padding: 0% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    background-color:  blue !important;
+}
+
+    
+.logo
+{
+    width: 100% !important;
+    text-align: center !important;
+    margin: 0% !important;
+    height: auto !important;
+}
+
+.fa-shopping-cart
+{
+    color: white !important;
+    font-size: 30px !important;
+}
+
+.active
+{
+    font-size: 22px !important;
+    color: white !important;
+}
+
+.nav
+{
+    width: 100% !important;
+    margin: auto !important;
+    height: auto !important;
+    text-align: center !important;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.nav li
+{
+    display: inline-block !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    padding: 0px 10px !important;
+    color: white !important;
+}
+
+.dropdown
+{
+    position: relative !important;
+}
+
+.dropdown-menu
+{
+    display: none !important;
+    background-color: blue !important;
+    min-width: 100px !important;
+    font-size: 17px !important;
+    line-height: 30px !important;
+    margin-top: 7% !important;
+}
+
+.dropdown-menu a
+{
+    font-size: 16px !important;
+    background-color: blue !important;
+    display: block !important;
+}
+
+.dropdown-menu a::after
+{
+    display: none !important;
+    min-width: 290px !important;
+    font-size: 15px !important;
+    content: "" !important;
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block !important;
+    position: absolute !important;
+    margin-left: 5% !important;
+}
+
+.dropdown-menu a
+{
+    text-decoration: none !important;
+    list-style-type: none !important;
+    color: white !important;
+}
+
+.dropdown a
+{
+    color: white !important;
+    text-decoration: none !important;
+    list-style-type: none !important;
+}
+
+#bnr
+{
+    width: 100% !important;
+    height: auto !important;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.banner img
+{
+    width: 100% !important;
+    height: auto !important;
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+/* start content */
+#content
+{
+    width: 100% !important;
+    padding: 1% !important;
+    margin: 0% !important;
+}
+
+.conheader
+{
+    width: 90% !important;
+    height: auto !important;
+    margin: auto !important;
+    padding: 0% !important;
+    border: 1px solid black !important;
+    background-color: gray !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    margin-top: 2% !important;
+}
+
+.con1
+{
+    width: 80% !important;
+    height: auto !important;
+}
+
+
+.con1 p
+{
+    color: white;
+    font-size: 20px !important;
+    line-height: 0% !important;
+}
+
+.con1btn
+{
+    width: 15% !important;
+    height: auto !important;
+    margin:auto !important;
+    padding: 0% !important;
+}
+
+.con1btn button
+{
+    background-color: blue !important;
+    border: none !important;
+    color: white !important;
+    padding: 5px !important;
+}
+
+#imgcon
+{
+    width: 90% !important;
+    height: auto !important;
+    margin: auto !important;
+    padding-top: 2% !important;
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    border: 1px solid black !important;
+    border-top: none !important;
+    text-align: center !important;
+}
+
+.imgbox1
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.imgbox1 img
+{
+    width: 150px;
+    height: 220px;
+}
+
+.imgbox1 button
+{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+
+/* start footer */
+#footer
+{
+    width: 100%;
+    height: auto;
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.aboutus
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-left: 10%;
+}
+
+.aboutus a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 5px;
+}
+
+.contactus
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-left: 10%;
+}
+
+.contactus a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 5px;
+}
+
+.brand
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-left: 10%;
+}
+
+.brand a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 5px;
+}
+
+
+.address
+{
+    width: 100%;
+    height: auto;
+    color: white;
+    margin-left: 10%;
+}
+
+
+#bottomfooter p
+{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+}
+
+}

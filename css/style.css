@@ -1,0 +1,393 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+
+/* start header */
+#header
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+    justify-content: space-between;
+}
+
+.contactnum
+{
+    width: 20%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+.contactnum span
+{
+    color: blue;
+    font-weight: 900;   
+}
+
+.searchbox
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.searchbox input
+{
+    width: 150px;
+    padding: 5px;
+    height: 15px;
+}
+
+.social
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.social span
+{
+    color: blue;
+    padding: 2px 5px;
+    font-size: 20px;
+}
+
+.cart
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.cart button
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.cart span
+{
+    color: gray;
+    font-size: 20px;
+}
+
+.btnlogin
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.btnlogin button
+{
+    width: 50px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* start navbar */
+#navbar
+{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:  blue;
+}
+
+.logo
+{
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 1%;
+    height: auto;
+}
+
+.fa-shopping-cart
+{
+    color: gray !important;
+    font-weight: 700;
+}
+
+.active
+{
+    font-size: 22px;
+    color: white;
+}
+
+.nav
+{
+    width: 70%;
+    margin: auto;
+    height: auto;
+}
+
+.nav li
+{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px 10px;
+    color: white;
+}
+
+.dropdown
+{
+    position: relative;
+}
+
+.dropdown-menu
+{
+    display: none;
+    background-color: blue;
+    min-width: 50px !important;
+    font-size: 17px;
+    line-height: 15px;
+    margin-top: 7%;
+}
+
+.dropdown-menu a
+{
+    font-size: 16px;
+    background-color: blue;
+    display: block;
+}
+
+.dropdown-menu a::after
+{
+    display: none;
+    min-width: 100px !important;
+    font-size: 15px;
+    content: "";
+}
+
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+    position: absolute;
+    margin-left: 5%;
+}
+
+.dropdown-menu a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.dropdown a
+{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#bnr
+{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+.banner img
+{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/* start content */
+#content
+{
+    width: 100%;
+    padding: 1%;
+    margin: 0%;
+}
+
+.conheader
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 0%;
+    border: 1px solid black;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.con1
+{
+    width: 30%;
+    height: auto;
+}
+
+
+.con1 p
+{
+    color: white;
+    font-size: 20px;
+    line-height: 0%;
+}
+
+.con1btn
+{
+    width: 10%;
+    height: auto;
+    margin-top: 1.5%;
+}
+
+.con1btn button
+{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+#imgcon
+{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding-top: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid black;
+    border-top: none;
+    text-align: center;
+}
+
+.imgbox1
+{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.imgbox1 img
+{
+    width: 250px;
+    height: 300px;
+}
+
+.imgbox1 button
+{
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+/* start footer */
+#footer
+{
+    width: 100%;
+    height: auto;
+    margin:0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+
+.aboutus
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    color: white;
+    margin-left: 15%;
+}
+
+.aboutus a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 5px;
+}
+
+.contactus
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+.contactus a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 5px;
+}
+
+.brand
+{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+.brand a
+{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    line-height: 5px;
+}
+
+
+.address
+{
+    width: 40%;
+    height: auto;
+    margin: auto;
+    color: white;
+}
+
+#bottomfooter
+{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;  
+    background-color: black; 
+    padding: 2px;
+}
+
+#bottomfooter p
+{
+    text-align: center;
+    color: white;
+}
